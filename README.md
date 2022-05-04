@@ -23,7 +23,7 @@ Além do node, é necessário a instalação do Express(requisições e rotas), 
 ```
 npm install express mongoose nodemon
 ```
-Após a instalação dos pacotes, é necessário configurar o banco de dados Mongodb/Atlas. Para isso é necessário inicalizar um banco de dados na nuvem através do [site da Mongodb](www.mongodb.com/). Após a inicialização do banco com usuário e senha criados, é necessário mudar as variáveis abaixo(em index.js) com os dados do banco para que a conexão seja feita com sucesso:
+Após a instalação dos pacotes, é necessário configurar o banco de dados Mongodb/Atlas. Para isso é necessário inicalizar um banco de dados na nuvem através do [site da Mongodb](https://www.mongodb.com/). Após a inicialização do banco com usuário e senha criados, é necessário mudar as variáveis abaixo(em index.js) com os dados do banco para que a conexão seja feita com sucesso:
 ```javascript
 //Inserindo dados do AtlasDB
 const DBUSERNAME = '<yourUser>'
