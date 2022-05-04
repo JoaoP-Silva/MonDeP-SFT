@@ -10,8 +10,8 @@ Retorna:    (string Type, var Data)
 
 const HEADER = "50F7"
 const ENDCODE = "73C4"        
-const handleDataSFT = (d) =>{
-    buff = d.toString('ascii')
+const handleDataSFT = (input) =>{
+    buff = input.toString('ascii')
     const regexHeader = RegExp(HEADER, 'g')
     const regexEndcode = RegExp(ENDCODE, 'g')
     DataArray = []
